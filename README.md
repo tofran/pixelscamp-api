@@ -27,11 +27,11 @@ or with some parameters: ```api.users(self, count=5, offset=0)```
 
 ## User public data (Non authenticated)
 
-```api.badges_list()```
+```api.user('username')```
 
 ## List badges (Non authenticated )
 
-```api.user('username')```
+```api.badges_list()```
 
 ## List badges owners (Non authenticated)
 
