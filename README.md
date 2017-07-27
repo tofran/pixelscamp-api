@@ -1,11 +1,17 @@
-# PixelsCamp-API
+# PixelsCamp-API [![pypi](https://img.shields.io/pypi/v/pixelscamp-api.svg)][pypi]
 Pixels camp REST API wrapper in python.
 
 You can find the official API documentation [here][API doc].
 
 ## To start..
 
-Initialize with:
+Get it from [pypi] or this repo.
+
+Import it: 
+
+```from pixelscamp_api import PixelsAPI```
+
+And initialize with:
 
 ```PixelsAPI(api_key="XXXXXXXXXXXXXXXX")```
 
@@ -45,3 +51,4 @@ or with: ```api.badges_redeem('XXXXXXX')```, it will automatically retrive your 
 
 
 [API doc]: https://github.com/PixelsCamp/docs/blob/master/API.md
+[pypi]: https://pypi.python.org/pypi/pixelscamp-api
